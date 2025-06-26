@@ -24,7 +24,7 @@ After moving, all **opponent pieces adjacent to the destination** (in 8 directio
 - The destination cell must be empty (`.`).
 - Movement must be exactly 1 or 2 steps in a straight or diagonal direction (no irregular leaps).
 
-### ⏭Passing
+### Passing
 - If no valid moves are available, a player **must pass** by submitting the move `0 0 0 0`.
 - If **both players pass consecutively**, the game ends immediately.
 
