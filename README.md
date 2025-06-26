@@ -1,10 +1,33 @@
 # OctaFlip Game & LED Visualizer with Server Communication
 
 ## 📌 Overview
-This project is a client implementation for the **OctaFlip Game**, developed as part of a team assignment at DGIST. It includes:
+This project is a client implementation for the **OctaFlip Game**, developed as part of a team assignment at **DGIST**. 👥 Developed by **Team JUME** 
+It includes:
 - A move-generation algorithm to play OctaFlip intelligently against an opponent.
 - Real-time board visualization on a 64×64 LED matrix panel.
 - Network communication with a game server over TCP using JSON protocol.
+
+## File Structure
+```
+OctaFlipGame/
+├── libs/
+│   ├── rpi-rgb-led-matrix/   # for LED matrix
+│   └── cJSON.c               
+├── include/  
+│   ├── board.h
+│   ├── client.h
+│   ├── game.h
+│   ├── json.h
+│   └── server.h          
+├── src/                      
+│   ├── board.c
+│   ├── client.c
+│   ├── game.c
+│   ├── json.c
+│   └── server.c
+├── main.c                    
+├── README.md
+```
 
 ## Game Description
 
@@ -113,24 +136,3 @@ sudo ./OctaflipGame client -i 127.0.0.1 -p 8080 -u user2 \
 ```
 
 
-## File Structure
-```
-OctaFlipGame/
-├── libs/
-│   ├── rpi-rgb-led-matrix/   # for LED matrix
-│   └── cJSON.c               
-├── include/  
-│   ├── board.h
-│   ├── client.h
-│   ├── game.h
-│   ├── json.h
-│   ├── server.h          
-├── src/                      
-│   ├── board.c
-│   ├── client.c
-│   ├── game.c
-│   ├── json.c
-│   └── server.c
-├── main.c                    
-├── README.md
-```
