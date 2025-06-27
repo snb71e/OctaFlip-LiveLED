@@ -1,5 +1,5 @@
 # CSE306 Term Project - OctaFlip Game & LED Visualizer with Server Communication (Spring 2025)
-Developed by **Team JUME**😁🤪
+Developed by **Team JUME** 😁
 
 ![demo](demo.gif)
 
